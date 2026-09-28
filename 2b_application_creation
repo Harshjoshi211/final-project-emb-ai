@@ -1,0 +1,3 @@
+>>> from emotion_detection import emotion_detector
+>>> emotion_detector("I love this new technology")
+'{"emotionPredictions":[{"emotion":{"anger":0.0076241386,"disgust":0.0016488214,"fear":0.0039234855,"joy":0.9632832,"sadness":0.038475268},"target":"","emotionMentions":[{"span":{"begin":0,"end":26,"text":"I love this new technology"},"emotion":{"anger":0.0076241386,"disgust":0.0016488214,"fear":0.0039234855,"joy":0.9632832,"sadness":0.038475268}}]}],"producerId":{"name":"Watson NLP Teams","version":"0.0.1"}}'
